@@ -1,4 +1,4 @@
-Cpp_study
+Cpp_study.txt
 
 컴파일편 학습한 내용
 
