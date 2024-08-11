@@ -1,12 +1,16 @@
 Unity_study.txt
 
+변수와 자료형편 학습한 내용
 
+int           정수   10자리 정수
+long       큰 정수   18자리 정수
+float    소수 포함   but 
+bool     참과 거짓 
+string      문자열     
 
+자료형 최대값 초과시 오버플로우(Overflow)발생하며 잘못된 값 도출
 
-
-
-
-
+float타입 데이터 뒤에 f를 붙이는 이유는 지금 저장하는 데이터가 float형임을 컴퓨터에게 알리는 용도
 
 
 
