@@ -1,6 +1,6 @@
 Unity_study.txt
 
-변수와 자료형편 학습한 내용
+변수와 자료형편 학습한 내용=====================
 
 int           정수   10자리 정수
 long       큰 정수   18자리 정수
@@ -25,9 +25,26 @@ string str3 = str ?? str2;// ? 앞의 값이 null이 아니면 ? 앞의 값을 �
 ??= 연산자
 str ??= str2;//str의 값이 null이면 str2를 넣고, null이 아니면 값을 유지하라
 
+제어문 if & switch편 학습한 내용=====================
+switch(식이나 변수)
+{
+    case 기준1:
+        
+        break;
+    case 기준2:
 
+        break;
+        
+        ...
+        
+    case 기준n:
 
+        break;
+    
+    default: 
 
+        break;
+}
 
 
 
