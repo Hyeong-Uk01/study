@@ -46,6 +46,24 @@ switch(식이나 변수)
         break;
 }
 
+제어문 while & for편 학습한 내용=====================
+while & do-while의 차이점
+    while은 조건이 만족하는 동안(즉, 조건 불일치시 1번도 실행 안함)
+    do-while은 조건 상관(=비교) 없이 무조건 1번은 실행 후 조건 비교
+    
+    ex) while & do-while 문법 차이점
+    do
+    {
+        Deug.Log(i);
+    }while (i<10); //꼭 세미콜론 붙이기
 
+break; & continue
+    break;//반복문 나가라
+    continue;//만나는 순간 다음 동작 무시하고 지금 당장 조건과 비교하라
 
+for문
+    for( 초기화; 반복 조건; 반복 명령어)
+    {
+
+    }
 
