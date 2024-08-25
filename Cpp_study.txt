@@ -115,5 +115,30 @@ char 변수, 2중 for문편 학습한 내용=============
         "hi"                 //"hi"를
 
 
-        
+else if, %연산자, counting, 2차원배열편 학습한 내용============= 
+else if연산자
+    ex1)if()                 ex2)if()
+        if()                     else if() 
+        if()                     else if() 
+    ex1)모든 if문 전부 체크하는 반면에 ex2)는 if문이 참이면 else if는 체크 안함
+
+%나머지 연산자
+    활용 ex)홀짝, 배수
+
+counting//배열에 있어서 특정 조건의 갯수 셀때
+    ex)int arr[5]={1,2,3,4,5};
+    int count=0;
+    for(int i=0;i<5;i++)
+    {
+        if(arr[i] % 2 == 0)
+        {
+            count++;
+        }
+    }
+
+ctrl + F10
+or F9와 F5
+
+2차원 배열
+    ex)5(x)개짜리 배열 3(y)줄 생성 -> arr[3][5]
 
