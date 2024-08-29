@@ -88,3 +88,41 @@ for문
         a[2] = new int[4] {3, 7, 9, 10};
 
         
+컬렉션, List, Dictionary편 학습한 내용=====================
+컬렉션
+
+    List<자료형> 변수명;//저장할 자료형의 변수명을 선언하라
+    List<자료형> 변수명=new List<자료형>(숫자)//리스트를 생성하라 
+
+    변수명.Add( );//변수명 리스트에 ( )의 내용을 추가하라
+    변수명.Add( Index , );//변수명 리스트 해당 Index에 ( )의 내용을 추가하라
+
+    Debug.Log(변수명[Index])//해당 값 출력하라
+
+    변수명.Remove(Index);//해당 Index에 값을 제거하라
+    변수명.Remove( );//리스트 내에 있는 ( )안의 값을 제거(삭제)하라
+
+    변수명.Count;//변수명 리스트 안의 들어있는 원소들을 count하라
+                 //Count는 ( )를 사용하지 않는다. 
+
+    변수명.Contains( );// ( )안의 내용이 변수명 리스트안에 존재하는가?
+
+    변수명.IndexOf( );// ( )안의 내용이 몇 번 index에 있는가?
+    변수명.Clear( );// 변수명 리스트안에 들어있는 리스트 값을 지워라 
+
+Dictionary
+
+    Dictionary//Key값을 저장해서 Value 값을 저장하는 컬렉션
+    Dictionary< Key값 자료형, Value값 자료형 > 변수명 = new Dictionary< Key값 자료형, Value값 자료형 > ( );
+
+    변수명.Add( Key값 , Value값 );
+
+    Debug.Log(변수명[Key값])//Key값에 해당하는 Value값 출력하라
+                            //Dictionary에서는 Index 비슷한 역할로 Key값
+                            //따라서 Key값이 같은 2개 이상의 Value값아 존재 불가
+    
+    Debug.long(변수명.ContainsKey( ));//( )안의 Key값을 가진 변수명 Dictionary안에 존재하는가?
+    Debug.long(변수명.ContainsValue( ));//( )안의 Value값을 가진 변수명 Dictionary안에 존재하는가?
+
+    변수명.Remove( Key값 );//( )안의 Key값을 가진 원소를 삭제하라
+    변수명.Clear();//
